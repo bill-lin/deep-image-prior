@@ -25,5 +25,5 @@ RUN git clone https://github.com/DmitryUlyanov/deep-image-prior.git
 WORKDIR /deep-image-prior
 
 # Start container in notebook mode
-CMD jupyter notebook --ip="*" --no-browser --allow-root
+CMD jupyter notebook --ip="0.0.0.0" --no-browser --allow-root
 
